@@ -1,0 +1,119 @@
+/* write your css here */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.title{
+    font-size: 3rem;
+    margin:6vh;
+    border: 7px dashed blue;
+    border-radius: 20px;
+    padding: 1vh 5vw;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 400px;
+    height: max-content;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    justify-content:center ;
+    box-shadow: gba();
+}
+
+.image{
+    width: 380px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.tour-info{
+    margin: 20px 5px;
+
+
+}
+.tour-price{
+    color: rgb(91, 215, 91);
+    font-size: 1.3rem;
+}
+.tour-name{
+    font-size: 1.5rem;
+}
+
+.description{
+
+}
+.read-more{
+    color: rgb(18, 131, 251);
+    font-size: 1.5rem;
+    font-weight:200px;
+    cursor: pointer;
+}
+
+.btn-red{
+    margin-top: 10px; 
+    padding: 10px 80px;
+    border: 2px solid red;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: linen;
+
+}
+
+.btn-red:hover{
+    background-color:red ;
+     color: white;
+    transition: all 0.2s;
+}
+
+.refresh{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn-white{
+    margin: 10px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.btn-white:hover{
+    background-color: rgb(84, 225, 84);
+}
+
+
+
+
+
